@@ -108,7 +108,7 @@ Among use cases that can be covered by Endpoint are:
 
 - Server File System synchronization
 
-  ![HSTE: sync](images/hste_sync.png)
+  ![HSTE: sync](hste_sync.png)
 
   It's is possible to sell only Endpoints, but in that case there is no web UI for monitoring.
   Typically (but not necessarily) there is a central repository that is sync'ed to remove facilities (satellites).
@@ -122,4 +122,4 @@ Among use cases that can be covered by Endpoint are:
 
     Also, the number of "docroot" (main sync folder) is limited to 2. So, if the central repository needs to segregate remote client by folder, and there are more than 2 clients, then a central HSTS can be used, and you also get monitoring with Console.
 
-  ![HSTS-HSTE sync](images/hste_hsts_sync.png)
+  ![HSTS-HSTE sync](hste_hsts_sync.png)
